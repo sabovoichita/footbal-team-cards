@@ -4,10 +4,13 @@ const worldCupYear = document.getElementById("year");
 const headCoach = document.getElementById("head-coach");
 const playerCards = document.getElementById("player-cards");
 const playersDropdownList = document.getElementById("players");
-const myFavoriteFootballTeam = {};
+const myFavoriteFootballTeam = {
+  team: "Argentina",
+};
 console.log(teamName);
 console.log(typeOfSport);
 console.log(worldCupYear);
 console.log(headCoach);
 console.log(playerCards);
 console.log(playersDropdownList);
+console.log(myFavoriteFootballTeam);
