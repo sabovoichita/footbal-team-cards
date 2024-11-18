@@ -13,6 +13,7 @@ const myFavoriteFootballTeam = {
     coachName: "Carlos Bilardo",
     matches: 7,
   },
+  players: [],
 };
 console.log(teamName);
 console.log(typeOfSport);
