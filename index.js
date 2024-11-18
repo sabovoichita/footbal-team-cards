@@ -221,16 +221,3 @@ playersDropdownList.addEventListener("change", (e) => {
       setPlayerCards();
   }
 });
-
-console.log(playerCards);
-console.log(playersDropdownList);
-console.log(myFavoriteFootballTeam);
-console.log(sport);
-console.log(team);
-console.log(year);
-console.log(players);
-console.log(coachName);
-console.log(typeOfSport.textContent);
-console.log(teamName.textContent);
-console.log(worldCupYear.textContent);
-console.log(headCoach.textContent);
