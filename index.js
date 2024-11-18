@@ -173,6 +173,7 @@ const myFavoriteFootballTeam = {
 Object.freeze(myFavoriteFootballTeam);
 
 const { sport, team, year, players } = myFavoriteFootballTeam;
+const { coachName } = myFavoriteFootballTeam.headCoach;
 
 console.log(teamName);
 console.log(typeOfSport);
@@ -183,3 +184,6 @@ console.log(playersDropdownList);
 console.log(myFavoriteFootballTeam);
 console.log(sport);
 console.log(team);
+console.log(year);
+console.log(players);
+console.log(coachName);
