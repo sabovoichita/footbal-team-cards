@@ -180,8 +180,9 @@ worldCupYear.textContent = year;
 headCoach.textContent = coachName;
 
 const setPlayerCards = (arr = players) => {
-  playerCards.innerHTML = arr.map(() => {});
-};
+  playerCards.innerHTML += arr.map(({ name, position, number, isCaptain, nickname })= arr  => {
+})
+}
 
 console.log(playerCards);
 console.log(playersDropdownList);
