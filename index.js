@@ -193,6 +193,8 @@ const setPlayerCards = (arr = players) => {
     .join("");
 };
 
+playersDropdownList.addEventListener("change", () => {});
+
 console.log(playerCards);
 console.log(playersDropdownList);
 console.log(myFavoriteFootballTeam);
