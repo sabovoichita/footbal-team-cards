@@ -179,6 +179,8 @@ teamName.textContent = team;
 worldCupYear.textContent = year;
 headCoach.textContent = coachName;
 
+const setPlayerCards = () => {};
+
 console.log(playerCards);
 console.log(playersDropdownList);
 console.log(myFavoriteFootballTeam);
