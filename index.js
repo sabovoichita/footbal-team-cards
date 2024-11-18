@@ -9,7 +9,10 @@ const myFavoriteFootballTeam = {
   sport: "Football",
   year: 1986,
   isWorldCupWinner: true,
-  headCoach: {},
+  headCoach: {
+    coachName: "Carlos Bilardo",
+    matches: 7,
+  },
 };
 console.log(teamName);
 console.log(typeOfSport);
